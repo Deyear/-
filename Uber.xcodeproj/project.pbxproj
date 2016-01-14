@@ -14,6 +14,9 @@
 		7200B32A1C461E7C00F6E6F4 /* BindPay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7200B3291C461E7C00F6E6F4 /* BindPay.swift */; };
 		7200B32C1C461E9F00F6E6F4 /* FxBasePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7200B32B1C461E9F00F6E6F4 /* FxBasePage.swift */; };
 		721A3F001C44FBF600364EAE /* FxDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721A3EFF1C44FBF600364EAE /* FxDefine.swift */; };
+		7275DBE01C4741B900477DF6 /* welcome_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7275DBDF1C4741B900477DF6 /* welcome_video.mp4 */; };
+		7275DBE11C4741B900477DF6 /* welcome_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7275DBDF1C4741B900477DF6 /* welcome_video.mp4 */; };
+		7275DBE21C4741B900477DF6 /* welcome_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7275DBDF1C4741B900477DF6 /* welcome_video.mp4 */; };
 		72A2D8951C44A6E8006580B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A2D8941C44A6E8006580B4 /* AppDelegate.swift */; };
 		72A2D8971C44A6E8006580B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A2D8961C44A6E8006580B4 /* ViewController.swift */; };
 		72A2D89A1C44A6E8006580B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A2D8981C44A6E8006580B4 /* Main.storyboard */; };
@@ -669,6 +672,7 @@
 		7200B3291C461E7C00F6E6F4 /* BindPay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindPay.swift; sourceTree = "<group>"; };
 		7200B32B1C461E9F00F6E6F4 /* FxBasePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxBasePage.swift; sourceTree = "<group>"; };
 		721A3EFF1C44FBF600364EAE /* FxDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxDefine.swift; sourceTree = "<group>"; };
+		7275DBDF1C4741B900477DF6 /* welcome_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = welcome_video.mp4; sourceTree = "<group>"; };
 		72A2D8911C44A6E8006580B4 /* Uber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72A2D8941C44A6E8006580B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72A2D8961C44A6E8006580B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -922,6 +926,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7275DBDE1C47419500477DF6 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				7275DBDF1C4741B900477DF6 /* welcome_video.mp4 */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
 		72A2D8881C44A6E8006580B4 = {
 			isa = PBXGroup;
 			children = (
@@ -1049,6 +1061,7 @@
 		72A2D8CA1C44B13C006580B4 /* resouce */ = {
 			isa = PBXGroup;
 			children = (
+				7275DBDE1C47419500477DF6 /* Video */,
 				72A2D8CC1C44B191006580B4 /* Images */,
 				72A2D8CB1C44B180006580B4 /* Config */,
 				72A2D8CD1C44B1BF006580B4 /* Xib */,
@@ -1481,6 +1494,7 @@
 				72F3976E1C4647DB006B07B0 /* logo-053@2x.png in Resources */,
 				72F3960C1C4647DB006B07B0 /* logo-014.png in Resources */,
 				72F396D81C4647DB006B07B0 /* logo-036@3x.png in Resources */,
+				7275DBE01C4741B900477DF6 /* welcome_video.mp4 in Resources */,
 				72F397501C4647DB006B07B0 /* logo-050.png in Resources */,
 				72F396DB1C4647DB006B07B0 /* logo-037.png in Resources */,
 				72F395CA1C4647DB006B07B0 /* logo-006@3x.png in Resources */,
@@ -1764,6 +1778,7 @@
 				72F396EB1C4647DB006B07B0 /* logo-038@3x.png in Resources */,
 				72F396401C4647DB006B07B0 /* logo-019@3x.png in Resources */,
 				72F397781C4647DB006B07B0 /* logo-054@2x.png in Resources */,
+				7275DBE11C4741B900477DF6 /* welcome_video.mp4 in Resources */,
 				72F395E61C4647DB006B07B0 /* logo-009@3x.png in Resources */,
 				72F397061C4647DB006B07B0 /* logo-041@3x.png in Resources */,
 				72F395A41C4647DB006B07B0 /* logo-002@2x.png in Resources */,
@@ -1975,6 +1990,7 @@
 				72F396EC1C4647DB006B07B0 /* logo-038@3x.png in Resources */,
 				72F396411C4647DB006B07B0 /* logo-019@3x.png in Resources */,
 				72F397791C4647DB006B07B0 /* logo-054@2x.png in Resources */,
+				7275DBE21C4741B900477DF6 /* welcome_video.mp4 in Resources */,
 				72F395E71C4647DB006B07B0 /* logo-009@3x.png in Resources */,
 				72F397071C4647DB006B07B0 /* logo-041@3x.png in Resources */,
 				72F395A51C4647DB006B07B0 /* logo-002@2x.png in Resources */,
